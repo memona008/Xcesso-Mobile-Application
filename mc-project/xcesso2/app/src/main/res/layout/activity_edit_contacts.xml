@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/frag2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+   >
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/baseline_supervised_user_circle_24"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+        android:layout_below="@id/logo2"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:text="My Trusted Contacts"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <!--  <Button
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:padding="20dp"
+         android:backgroundTint="@color/colorPrimaryLight"
+         android:text="Add New Contact"
+         android:layout_below="@id/txt"
+         android:textColor="@color/White"
+         android:visibility="visible"
+        android:id="@+id/btn_add_contact_on_edit_screen"
+    />
+-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_below="@id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        />
+
+   <TextView
+        android:id="@+id/btn_add_contact_on_edit_screen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/outline_add_box_24"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/btn_add_contact_from_phone"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_person_add_black_24"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/White"
+        android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:clickable="true"
+        />
+
+
+</RelativeLayout>

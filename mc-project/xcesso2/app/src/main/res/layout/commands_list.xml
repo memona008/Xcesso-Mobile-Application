@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    android:layout_weight="10"
+    android:background="@color/WhiteSmoke"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:paddingLeft="32dp"
+        android:paddingRight="29dp"
+        android:text="List of Things you can Access"
+        android:textColor="@color/White"
+        android:background="@color/colorPrimary"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:padding="5dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send the following message to your Phone via trusted contacts "
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/indicator_dot_grey"
+            android:drawableStart="@drawable/indicator_dot_grey"
+            android:drawablePadding="10dip"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contacts of Your Phone"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/indicator_dot_grey"
+            android:drawableStart="@drawable/indicator_dot_grey"
+            android:drawablePadding="10dip"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/command1"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Files of Your Phone"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/indicator_dot_grey"
+            android:drawableStart="@drawable/indicator_dot_grey"
+            android:drawablePadding="10dip"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/command3"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location of Your Phone"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/indicator_dot_grey"
+            android:drawableStart="@drawable/indicator_dot_grey"
+            android:drawablePadding="10dip"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/command2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile of Your Phone"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/indicator_dot_grey"
+            android:drawableStart="@drawable/indicator_dot_grey"
+            android:drawablePadding="10dip"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/command4"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note : replace 0000 with your passcode"
+            android:textStyle="italic"
+            android:textColor="@color/Black"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/indicator_dot_grey"
+            android:drawableStart="@drawable/indicator_dot_grey"
+            android:drawablePadding="10dip"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"/>
+</LinearLayout>
+
+

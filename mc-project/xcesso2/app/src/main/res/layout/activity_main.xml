@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xcesso.MainActivity">
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_centerInParent="true"
+        android:layout_width="250dip"
+        android:layout_height="250dip"
+        android:background="@drawable/round_button"
+        android:text="GO"
+        android:textSize="25dip"
+         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  STOP  "
+
+
+        android:id="@+id/btn_stop"
+        android:layout_below="@id/btn_go"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>

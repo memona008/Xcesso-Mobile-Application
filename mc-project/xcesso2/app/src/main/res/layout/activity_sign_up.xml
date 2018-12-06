@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    tools:context="com.xcesso.SignUp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_user_dp"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorPrimary"
+    >
+   <ImageView
+       android:layout_width="80dip"
+       android:layout_height="80dip"
+       android:backgroundTint="#ffffff"
+       android:id="@+id/user_dp"
+       android:background="@drawable/baseline_person_24"
+       android:layout_marginTop="30dip"
+       android:layout_marginBottom="10dip"
+    android:layout_alignParentTop="true"
+       android:layout_centerInParent="true"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Info"
+        android:textColor="#ffffff"
+        android:layout_below="@id/user_dp"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dip"/>
+</RelativeLayout>
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_below="@id/rl_user_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:hint="UserName"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dip"
+        android:drawableTint="@color/colorPrimary"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/user_phone"
+        android:layout_below="@id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:hint="Phone"
+        android:drawableLeft="@drawable/outline_phone_24"
+        android:drawablePadding="10dip"
+        android:drawableTint="@color/colorPrimary"
+        android:inputType="phone"
+        />
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_below="@id/user_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:hint="Email"
+        android:drawableLeft="@drawable/outline_email_24"
+        android:drawablePadding="10dip"
+        android:drawableTint="@color/colorPrimary"
+        android:inputType="textEmailAddress"
+
+        />
+
+<Button
+    android:id="@+id/btn_sign_up"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/user_email"
+    android:layout_centerInParent="true"
+
+    android:text="Sign Up"
+
+    android:layout_marginTop="30dip"
+    />
+</RelativeLayout>

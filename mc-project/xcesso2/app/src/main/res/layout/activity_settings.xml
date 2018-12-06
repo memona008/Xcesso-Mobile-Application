@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24dip"
+        android:drawableLeft="@drawable/baseline_settings_white_18"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:drawablePadding="5dip"
+        android:textStyle="bold"
+        android:layout_margin="5dip"
+        />
+
+
+
+    <Switch
+        android:id="@+id/location_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_title"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text="Location" />
+
+    <Switch
+        android:id="@+id/contacts_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location_switch"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text="Contacts" />
+
+    <Switch
+        android:id="@+id/phone_profile_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contacts_switch"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text="Profile" />
+
+    <Switch
+        android:id="@+id/images_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_profile_switch"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:text="Sd Card" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

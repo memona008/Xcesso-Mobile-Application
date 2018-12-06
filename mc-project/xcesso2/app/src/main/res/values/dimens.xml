@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+    <dimen name="default_text_size">20sp</dimen>
+    <dimen name="default_button_size">60dp</dimen>
+    <dimen name="default_delete_button_size">16dp</dimen>
+    <dimen name="default_horizontal_spacing">32dp</dimen>
+    <dimen name="default_vertical_spacing">0dp</dimen>
+    <dimen name="default_dot_diameter">8dp</dimen>
+    <dimen name="default_dot_spacing">8dp</dimen>
+
+    <dimen name="table_data_margin"> 2dip</dimen>
+    <dimen name="table_text_size"> 20sp</dimen>
+    <dimen name="keypadButtonSize"> 25sp</dimen>
+    <dimen name="table_margin"> 40dip</dimen>
+    <dimen name="table_top_margin"> 15dip</dimen>
+    <dimen name="table_data_padding"> 5dip</dimen>
+    <dimen name="table_data_width"> 0dip</dimen>
+    <dimen name="table_data_weight"> 1</dimen>
+    <dimen name="dots_margin"> 6dip</dimen>
+    <dimen name="dots_dimensions"> 12dip</dimen>
+    <dimen name="lockImage_dimensions"> 80dp</dimen>
+    <dimen name="button_padding"> 6dp</dimen>
+    <dimen name="ConfirmButton_margin"> 5dp</dimen>
+    <dimen name="ConfirmButton_marginTop"> 10dp</dimen>
+    <dimen name="editText_marginBottom"> 10dp</dimen>
+    <dimen name="relativeLayout1_marginTop"> 60dp</dimen>
+    <dimen name="ImageButton_marginRight"> 40dp</dimen>
+
+    <dimen name="Passcode_display_size">40sp</dimen>
+</resources>
